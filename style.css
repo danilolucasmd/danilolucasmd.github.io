@@ -26,7 +26,7 @@ body {
   background: -o-linear-gradient(115deg, rgb(89, 87, 150) 0%, rgb(139, 125, 186) 27%, rgb(186, 152, 194) 50%, rgb(232, 180, 192) 98%);
   background: -ms-linear-gradient(115deg, rgb(89, 87, 150) 0%, rgb(139, 125, 186) 27%, rgb(186, 152, 194) 50%, rgb(232, 180, 192) 98%);
   background: -moz-linear-gradient(115deg, rgb(89, 87, 150) 0%, rgb(139, 125, 186) 27%, rgb(186, 152, 194) 50%, rgb(232, 180, 192) 98%);
-  background: linear-gradient(335deg, rgb(89, 87, 150) 0%, rgb(139, 125, 186) 27%, rgb(186, 152, 194) 50%, rgb(232, 180, 192) 98%);  
+  background: linear-gradient(335deg, rgb(89, 87, 150) 0%, rgb(139, 125, 186) 27%, rgb(186, 152, 194) 50%, rgb(232, 180, 192) 98%);
   margin: 0;
 }
 
@@ -59,7 +59,8 @@ body {
 }
 
 .info__divider {
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   border-color: var(--text);
   border-width: 1px;
   opacity: .2;
